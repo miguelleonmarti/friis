@@ -8,9 +8,11 @@ Friis transmission equation.
 
 Then ...
 
+```javascript
 import { friisTransmissionEquation } from 'friis';
 
-let result = friisTransmissionEquation(8, 6, 6, 2, 10, 9, 50); // result = 32.5
+let result = friisTransmissionEquation(8, 6, 6, 2, 10, 10**9, 50); // result = -128.4
+```
 
 ## Parameters
 
