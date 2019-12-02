@@ -10,7 +10,7 @@ Then ...
 
 import { friisTransmissionEquation } from 'friis';
 
-let result = friisTransmissionEquation(8, 6, 6, 2, 10, 9, 50);
+let result = friisTransmissionEquation(8, 6, 6, 2, 10, 9, 50); // result = 32.5
 
 ## Parameters
 
@@ -21,3 +21,7 @@ let result = friisTransmissionEquation(8, 6, 6, 2, 10, 9, 50);
 * *frequency*: number (Hz)
 * *magnitudeOrder*: number
 * *distanceKm*: number (km)
+
+## Returns:
+
+* *powerRx*: number (dBm)
